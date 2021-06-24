@@ -1,18 +1,82 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span,
+h1, p, img, ul, li {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+}
+
 
 body {
-  background-color: ;
+  background-color: hsl(233, 47%, 7%);
   display: flex;
+  flex-direction: column;
+  margin: 0 20px;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
+
 }
 
-ol, ul {
+img {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  /* filter: hsl(277, 64%, 61%); */
+  padding-bottom: 40px;
+}
+
+h1 {
+  font-family: "Inter", sans-serif;
+  font-size: 27px;
+  font-weight: 700;
+  color: hsl(0, 0%, 100%);
+  margin: 0px 30px 15px 30px;
+}
+
+p {
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.8;
+  color: hsla(0, 0%, 100%, 0.75);
+  margin: 0px 45px 40px 45px;
+}
+
+span {
+  color: hsl(277, 64%, 61%);
+}
+
+ul {
   list-style: none;
 }
 
+.card-back {
+  background-color: hsl(244, 38%, 16%);
+  width: 100%;
+  max-width: 1440px;
+  padding-top: ;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
 
+.card-stats {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  color: hsl(0, 0%, 100%);
+}
 
+.card-stats-title {
+  color: hsla(0, 0%, 100%, 0.6);
+}
 
-  .attribution { font-size: 11px; text-align: center; }
-  .attribution a { color: hsl(228, 45%, 44%); }
+.attribution { font-size: 11px; text-align: center; display: inline;}
+.attribution a { color: hsl(228, 45%, 44%); display: inline;}
