@@ -27,7 +27,7 @@ img {
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
   /* filter: hsl(277, 64%, 61%); */
-  padding-bottom: 40px;
+  padding-bottom: 40px
 }
 
 h1 {
@@ -63,10 +63,11 @@ ul {
   display: flex;
   flex-direction: column;
   text-align: center;
+	align-items: center;
 }
 
 .card-bottom {
-	display: block;
+	/* display: block; */
 }
 
 .card-stats {
@@ -99,13 +100,15 @@ ul {
   margin: 30px 0 20px 0;
 }
 
-@media(min-width: 760px) {
+@media(min-width: 900px) {
   .card-back {
     flex-direction: row-reverse;
+		height: 480px;
     border-radius: 10px;
     text-align: left;
   }
   .card-bottom {
+		flex-wrap: nowrap;
   }
   img {
     border-top-left-radius: 0px;
@@ -117,7 +120,8 @@ ul {
     font-size: 33px;
 	}
   p {
-    margin: 0 350px 70px 60px;
+    /* margin: 0 350px 70px 60px; */
+		white-space:;
   }
 	.list {
 		display: inline-block;
