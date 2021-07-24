@@ -46,7 +46,7 @@ Users should be able to:
 - [Styled Components](https://styled-components.com/) - For styles
 
 ### What I learned
-Starting with a mobile first workflow then changing the design to desktop at the media query.  Using Flexbox to center the main content and changing the direction to row-reverse for desktop view with a media query.  Another challenge was to keep the image aspect ratio using width and height 100%.  Implementing mix-blend-mode to create a filter effect on the black and white image.  Using two images but having one displayed and the other hidden with display: none and swapping them at the media query.
+Started with a mobile first workflow then changed the design for desktop at the media query.  Used Flexbox to center the main content and changed the direction to row-reverse for the desktop view.  Another challenge was keeping the image aspect ratio the same using width and height 100%.  Used mix-blend-mode to create a filter effect on the black and white images.  Used two images but having one displayed and the other hidden with display: none and swapping them at the media query.
 ### Continued development
 
 ### Useful resources
