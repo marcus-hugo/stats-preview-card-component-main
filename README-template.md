@@ -16,8 +16,6 @@ This is a solution to the [Stats preview card component challenge on Frontend Me
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 ### The challenge
@@ -28,15 +26,8 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](design/desktop-preview.jpg)
 
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
-
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it.
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
-
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
 
 ### Links
 
@@ -50,12 +41,12 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- Mobile-first workflo
+- Mobile-first workflow
 
 - [Styled Components](https://styled-components.com/) - For styles
 
 ### What I learned
-
+Starting with a mobile first workflow then changing the design to desktop at the media query.  Using Flexbox to center the main content and changing the direction to row-reverse for desktop view with a media query.  Another challenge was to keep the image aspect ratio using width and height 100%.  Implementing mix-blend-mode to create a filter effect on the black and white image.  Using two images but having one displayed and the other hidden with display: none and swapping them at the media query.
 ### Continued development
 
 ### Useful resources
@@ -63,7 +54,7 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 ## Author
 
 - Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [https://www.frontendmentor.io/profile/marcus-hugo](https://www.frontendmentor.io/profile/yourusername)
 
 ## Acknowledgments
 
